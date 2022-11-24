@@ -13,7 +13,8 @@ int main() {
 
     // Process and Output
     for (counter = 1000; counter <= 2000; counter++) {
-        ((counter % 5) == 4) ? std::cout << counter << "\n" : std::cout << counter << " ";
+        ((counter % 5) == 4) ? std::cout << counter <<
+        "\n" : std::cout << counter << " ";
     }
 
     std::cout << "\nDone." << std::endl;
